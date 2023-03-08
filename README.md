@@ -13,7 +13,7 @@ Segundo trabajo practico de JavaScript.
  En un terminal ejecuta el siguiente comando:
 
 ```
-git clone 
+git clone https://github.com/Jotta-Barrionuevo/Tp-2-JavaScript.git
 
 ```
 ## Autores
