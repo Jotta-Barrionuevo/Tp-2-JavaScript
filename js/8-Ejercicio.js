@@ -1,13 +1,16 @@
-let num = prompt("Introduce un número no mayor de 50");
+let n = parseInt(prompt("Introduce un número entre 1 y 50"));
 
-if (num > 50) {
-  document.write("El número es mayor de 50... intenta nuevamente.");
+if (isNaN(n) || n < 1 || n > 50) {
+  document.write("Número inválido");
 } else {
-  for (let i = 1; i <= num; i++) {
-    let line = "";
+  let piramide = "";
+
+  for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {
-      line += j;
+      piramide += j;
     }
-    document.write(line + "<br>");
+    piramide += "<br>";
   }
+
+  document.write(piramide);
 }
