@@ -1,4 +1,3 @@
-// 2- Escribir un programa que solicite una nota (número) de 0  a 10. Luego mostrar la calificación en un alert según los siguientes rangos de nota:
 let nota = prompt("Introduce una nota del 0 al 10:");
 
 if (isNaN(nota) || nota < 0 || nota > 10) {
